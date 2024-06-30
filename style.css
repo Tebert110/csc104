@@ -1,0 +1,37 @@
+body{ /* will be set to the body */
+	margin: 0; /* setting the outer spacing (margin) to 0 */
+	background-image: url("pileofscrolls.jpeg") ; /* backgound set has an image */
+	height: 500px; /* set the height of the image */
+	background-position: center; /* setting the posrition of the image in the background */
+	background-size: cover; /* setting the size of the image to a set area */
+}
+
+article{ /* will be set the article */
+	padding: 30px; /* set the spacing from the edge of the screen */
+}
+
+h1, h2, h3{ /* will be applied to all headers that are listed first */
+	text-align: center; /* set the text align to center of the page */
+	color:rgb(255, 251, 0); /* set the color of the text */
+	text-shadow: 2px 2px 5px rgb(0, 0, 0); /* set the shadow effect on the text */
+	font-family: Blackadder ITC, arial, serif; /* set the font style and having two other to match what the user may have on their device */
+	letter-spacing: 2px; /* setting the spacing between the letters, this will help to read the letter easier */
+	font-size:  50px; /* set the font size in pixels */	
+}
+
+h2{ /* will be only beapplied to h2 header */
+	font-size: 45px; /* set the font size in pixels */	
+}
+
+h3{ /* will only be applied to h3 header */
+	font-size: 40px; /* set the font size in pixels */
+}
+
+p{ /* will be set to the paragraphs */
+	color:rgba(251, 255, 0, 0.921); /* set the color of the text */
+	text-shadow: 5px 5px 5px rgb(0, 0, 0); /* set the shadow effect on the text */
+	font-family: freestyle script, arial, serif; /* set the font style and having two other to match what the user may have on their device */
+	font-size: 35px; /* set the font size in pixels */
+	line-height: 1.6; /* setting the spacing between the line */
+	letter-spacing: 1px; /* setting the space between the letters in the text, this will make is easier to read the text */
+}
